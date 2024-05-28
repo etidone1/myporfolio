@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/68f9c22b82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="images/etido_udofa.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm Etido <br>Udofa from Nigeria</h1>
+           </div>
+        </div>
+    </div>
+    <!-----about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <br>
+                    <p>Etido Udofa
+                        <br><br>
+                        Software Engineer & Web Designer
+                        Profile:
+                        <br>
+                        With a passion for both creativity and precision,
+                        Etido Udofa is a seasoned software engineer and web 
+                        designer who combines technical expertise with an eye 
+                         Etido possesses a deep understanding of various 
+                        programming languages, frameworks, and design principles,
+                         allowing him to develop innovative 
+                        solutions tailored to meet clients' unique needs.</p>
+                        <br>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web development</span><br>Web app development</li>
+                                <li><span>App Development</span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-current</span><br>self taught</li>
+                                <li><span>2021-current</span><br>self taught</li>
+                                <li><span>2021-current</span><br>self taught</li>
+                            </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-current</span><br>self taught</li>
+                            <li><span>2021-current</span><br>self taught</li>
+                            <li><span>2021-current</span><br>self taught</li>
+                        </ul>
+                   </div>
+            </div>
+        </div>
+    </div>
+    <!-----services------->
+<div id="services">
+   <div class="container">
+     <h1 class="sub-title">My Services</h1>
+     <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <br>
+            <p>Etido Udofa is a skilled and imaginative web designer who thrives on the
+                 intersection of creativity and functionality.
+                 With a deep appreciation for user experience and aesthetics,
+                 Etido crafts captivating and user-centric websites that leave a lasting impression.
+                  Armed with a keen eye for detail and a passion for design trends, 
+                 he brings digital visions to
+                  life through intuitive interfaces and seamless 
+                navigation.</p>
+                <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX</h2>
+            <br>
+            <p>Etido Udofa is a visionary UI/UX designer who specializes 
+                in creating immersive digital experiences that seamlessly
+                blend functionality with aesthetics. With a deep
+                understanding of user psychology and interaction design 
+                principles, Etido is dedicated to crafting intuitive and
+                engaging interfaces that delight users and drive meaningful engagement.
+                 His passion for innovation and his commitment to user-centric design principles
+                set him apart as a leader in the field of UI/UX design</p>
+                <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <br>
+            <p>Etido Udofa is a talented and innovative app designer who specializes in creating intuitive
+                 and visually appealing mobile experiences. With a keen understanding of user behavior and 
+                 platform-specific design guidelines, Etido combines creativity with technical
+                  expertise to 
+                 deliver cutting-edge app designs that captivate users and drive engagement.
+                  His passion for
+                  pushing the boundaries of mobile design sets him apart as a leader in the field of app design.
+                </p>
+                <a href="#">Learn more</a>
+        </div>
+     </div>
+   </div>
+</div>
+<!------portfolio------>
+<div id="portfolio">
+    <div class="container">
+         <h1 class="sub-title">My work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="images/food for diabetess.png">
+                 <div class="layer">
+                    <h3>Best Food For diabetes App</h3>
+                    <p>The app shows you how manage diabetes and have a healthy life style.
+                        Download appp in play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+             </div>
+             <div class="work">
+                <img src="images/athrits wellnesss.png">
+                <div class="layer">
+                    <h3>Athritis Wellbeing App</h3>
+                    <p>The app shows how to manage athritis and maintain a healthy life style.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+             </div>
+             <div class="work">
+                <img src="images/roger federeres.png">
+                <div class="layer">
+                    <h3>Tribute To Federer Website</h3>
+                    <p>The app talks about Roger Federer,his career and achievements.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+             </div>
+         </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+</div>
+<!------------contact------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>etidone@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+2348030637174</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Messsage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy Made by EtidoneDev 2024</p>
+    </div>
+ </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxLw6kiRD75ngbk0BM_YUe9sJGk-iNbYMxj71gYBj22Rl4WNs7lN1owsWK22Jc25eqd/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "Message sent succesfully"
+           setTimeout(function(){
+              msg.innerHTML = ""
+           },5000)
+           form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
